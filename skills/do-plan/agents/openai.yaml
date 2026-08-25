@@ -1,0 +1,5 @@
+interface:
+  display_name: "Do Plan"
+  short_description: "Land an existing plan with SDD tasks and strict TDD"
+policy:
+  allow_implicit_invocation: false
