@@ -1,0 +1,5 @@
+interface:
+  display_name: "Hello"
+  short_description: "Prefix every reply with hello!hello!"
+policy:
+  allow_implicit_invocation: false
