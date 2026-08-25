@@ -49,8 +49,6 @@ do-plan:
 4. `RULE.md`、`rules/**/*.md`
 5. `CONTRIBUTING.md`（仅当其中有代码规范）
 
-项目前馈骨架见 [agent-template.md](agent-template.md)（宪法、SDD、C4、术语、howto、规范、ADR、错题本）。扫描时按实际文件读，不要因为缺某一节就生成空文档。
-
 仓库内明确的代码规范 skill（`.cursor/skills/` 或 `AGENTS.md` 指向的）要遵守。不要把无关的个人 skill 当成项目法律。没有约束文档时，只执行本 skill 的实现风格。
 
 同时确定 **基线命令**（编译/类型检查；若项目有现成单测命令也记下）。写进 `index.md`。看不出来就 **问一次**。后面每个 task 开始前都跑这组命令，不要每次换一套。
@@ -172,4 +170,3 @@ VERDICT: PASS | FAIL_IMPL | FAIL_SPEC
 - 字段与文件约定：[templates/index.md](templates/index.md)、[templates/task.md](templates/task.md)
 - 验收合同：[verifier-prompt.md](verifier-prompt.md)
 - 示例：[examples.md](examples.md)
-- 项目前馈（宪法 / SDD / C4 / howto / 规范 / ADR / 错题本）模板：[agent-template.md](agent-template.md)
