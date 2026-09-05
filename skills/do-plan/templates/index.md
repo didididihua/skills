@@ -3,7 +3,8 @@
 - Plan source: `<path-or-url>`
 - Summary: <one line>
 - Constraint docs: `<path>` | `none`
-- Baseline: `<compile-and-or-test-command>` | `unknown`
+- Baseline: `<fast compile/typecheck>` | `unknown`
+- Full verify: `<full test command>` | `same as baseline`
 - Current task: `Txx` | `none`
 - Final verify: `pending` | `pass` | `fail`
 

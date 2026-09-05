@@ -6,7 +6,11 @@
 
 ## goal
 
-<one paragraph, 总目标>
+<本刀一句话，指向原 plan 的哪一块。不要复述整份 plan。>
+
+## seams
+
+- `<public boundary>` | `none`
 
 ## do
 
