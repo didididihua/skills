@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go 代码风格"
+  short_description: "按 Nexus 风格组织 Go 入口、依赖装配和业务逻辑，保留现有分层"
+  default_prompt: "使用 $go-style 整理当前 Go 代码，参考技能中的样例，并保持现有接口协议、ORM 和业务语义。"
