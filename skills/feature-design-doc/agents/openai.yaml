@@ -1,0 +1,4 @@
+interface:
+  display_name: "功能设计文档"
+  short_description: "从需求写到需求设计、原型交互、技术方案和决策记录，合成一份可切换的 HTML"
+  default_prompt: "使用 $feature-design-doc 为这个需求写功能设计文档：先读 PRD 和相关代码，写需求设计，再画原型、写技术方案；图按技能里的画图规范画，每张图下写图解。"

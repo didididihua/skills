@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<style>
+{{css}}
+</style>
+</head>
+<body>
+<div class="layout">
+<aside class="nav">
+<div class="nav-head">
+<div class="nav-title">{{title}}</div>
+<div class="nav-legend"><span><i class="dot dot-new"></i>新增</span><span><i class="dot dot-chg"></i>改动</span><span><i class="dot dot-cur"></i>现状或不变</span></div>
+</div>
+{{tocs}}
+</aside>
+<main>
+<div class="viewbar"><span class="vb-title">{{title}}</span><span class="seg view-seg" role="group" aria-label="切换内容">{{buttons}}</span></div>
+<div class="page">
+{{content}}
+</div>
+</main>
+</div>
+<script>
+{{js}}
+</script>
+</body>
+</html>

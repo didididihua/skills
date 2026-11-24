@@ -1,0 +1,12 @@
+{
+  "name": "feature-design-doc-kit",
+  "private": true,
+  "type": "module",
+  "description": "Build a styled single-file HTML from a feature design doc written in Markdown.",
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "11.17.0",
+    "highlight.js": "11.11.1",
+    "marked": "15.0.12",
+    "puppeteer": "24.43.1"
+  }
+}
